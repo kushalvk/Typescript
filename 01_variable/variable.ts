@@ -1,6 +1,7 @@
 // Declaring a variable
 // Syntax
-// let {variable-name}: {type} = {value}
+// let {variable-name}: {type} = {value} 
+// assign a type is not naccesary Typescript is auto detact it.
 
 // String
 let greetings: string = "Hello Kushal"
@@ -11,5 +12,18 @@ console.log(greetings);
 // number
 let mynum = 6
 // mynum.toUpperCase() // error
+mynum.toFixed()
+
+// boolean
+let isLogedin: boolean = true
+
+// any data-type
+let hero;
+
+function getHero() {
+    return "thor"
+}
+
+hero = getHero()
 
 export {}
